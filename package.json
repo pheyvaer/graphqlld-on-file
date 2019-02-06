@@ -1,0 +1,31 @@
+{
+  "name": "graphqlld-on-file",
+  "version": "0.0.1",
+  "description": "Execute a GraphQL-LD query on an RDF file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pheyvaer/graphqlld-on-file.git"
+  },
+  "keywords": [
+    "graphqlld",
+    "rdf",
+    "query",
+    "file"
+  ],
+  "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pheyvaer/graphqlld-on-file/issues"
+  },
+  "homepage": "https://github.com/pheyvaer/graphqlld-on-file#readme",
+  "dependencies": {
+    "@comunica/actor-sparql-serialize-tree": "^1.4.4",
+    "n3": "^1.0.3",
+    "q": "^1.5.1",
+    "streamify-array": "^1.0.1"
+  }
+}
