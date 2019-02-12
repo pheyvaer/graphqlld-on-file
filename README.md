@@ -11,12 +11,10 @@ You can use it as follows.
 ++++
 ```
 
-## Update
+## Build the GraphQL-LD engine
 
 - Install dependencies via `npm i`.
 - Build GraphQL-LD engine via `npm run build:engine`.
-- Do changes.
-- Run tests via `npm test`.
 
 ## License
 
