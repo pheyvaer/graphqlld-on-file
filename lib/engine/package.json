@@ -1,14 +1,13 @@
 {
-  "name": "graphqlld-engine",
+  "name": "engine",
   "main": "index.js",
   "dependencies": {
     "@comunica/core": "^1.4.0",
     "@comunica/actor-http-native": "^1.5.1",
     "@comunica/mediator-number": "^1.4.1",
-    "@comunica/actor-rdf-join-nestedloop": "^1.4.4",
-    "@comunica/mediator-race": "^1.4.0",
     "@comunica/actor-rdf-parse-n3": "^1.4.3",
     "@comunica/actor-rdf-parse-jsonld": "^1.5.4",
+    "@comunica/mediator-race": "^1.4.0",
     "@comunica/actor-rdf-serialize-n3": "^1.4.3",
     "@comunica/actor-rdf-serialize-jsonld": "^1.5.4",
     "@comunica/mediator-combine-union": "^1.4.0",
@@ -20,9 +19,10 @@
     "@comunica/actor-sparql-serialize-sparql-json": "^1.4.4",
     "@comunica/actor-sparql-serialize-sparql-xml": "^1.4.4",
     "@comunica/actor-sparql-serialize-table": "^1.4.4",
+    "@comunica/actor-rdf-join-nestedloop": "^1.4.4",
     "@comunica/actor-rdf-dereference-http-parse": "^1.5.1",
-    "@comunica/actor-rdf-resolve-quad-pattern-file": "^1.5.4",
     "@comunica/actor-sparql-serialize-rdf": "^1.4.4",
+    "@comunica/actor-rdf-resolve-quad-pattern-file": "^1.5.4",
     "@comunica/actor-rdf-resolve-quad-pattern-federated": "^1.5.4",
     "@comunica/actor-query-operation-quadpattern": "^1.5.4",
     "@comunica/actor-query-operation-ask": "^1.4.4",
@@ -35,11 +35,11 @@
     "@comunica/actor-query-operation-extend": "^1.5.2",
     "@comunica/actor-query-operation-filter-sparqlee": "^1.5.1",
     "@comunica/actor-query-operation-from-quad": "^1.4.5",
-    "@comunica/actor-query-operation-join": "^1.4.4",
     "@comunica/actor-query-operation-leftjoin-nestedloop": "^1.5.1",
     "@comunica/actor-query-operation-orderby-sparqlee": "^1.5.1",
     "@comunica/actor-query-operation-project": "^1.4.4",
     "@comunica/actor-query-operation-union": "^1.4.4",
-    "@comunica/actor-init-sparql": "^1.5.4"
+    "@comunica/actor-init-sparql": "^1.5.4",
+    "@comunica/actor-query-operation-join": "^1.4.4"
   }
 }

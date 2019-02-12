@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx mocha",
-    "build:engine": "npx comunica-package urn:comunica:my -c config-engine.json -e urn:comunica:sparqlinit -o graphqlld-engine"
+    "build:engine": "rm -rf lib/engine; npx comunica-package urn:comunica:my -c lib/config-engine.json -e urn:comunica:sparqlinit -o engine; mv engine lib/engine"
   },
   "repository": {
     "type": "git",
