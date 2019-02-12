@@ -4,7 +4,8 @@
   "description": "Execute a GraphQL-LD query on an RDF file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha",
+    "build:engine": "npx comunica-package urn:comunica:my -c config-engine.json -e urn:comunica:sparqlinit -o graphqlld-engine"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,10 @@
     "n3": "^1.0.3",
     "q": "^1.5.1",
     "streamify-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "@comunica/packager": "^1.5.4",
+    "@comunica/actor-init-sparql-file": "^1.5.4",
+    "mocha": "^5.2.0"
   }
 }
