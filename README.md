@@ -8,7 +8,13 @@ The package is available on npm.
 You can use it as follows.
 
 ```$JavaScript
-++++
+const { query } = require('graphqlld-on-file');
+
+const result = await query('test/test.ttl', {
+  name: 'http://schema.org/name'
+}, '{ name }');
+
+// result = [{name: ['Test']}]
 ```
 
 ## Build the GraphQL-LD engine
