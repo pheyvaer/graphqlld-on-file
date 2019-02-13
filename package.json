@@ -25,11 +25,10 @@
   "homepage": "https://github.com/pheyvaer/graphqlld-on-file#readme",
   "dependencies": {
     "@comunica/actor-sparql-serialize-tree": "^1.4.4",
-    "streamify-array": "^1.0.1"
+    "@comunica/actor-init-sparql-file": "^1.5.4"
   },
   "devDependencies": {
     "@comunica/packager": "^1.5.4",
-    "@comunica/actor-init-sparql-file": "^1.5.4",
     "mocha": "^5.2.0"
   }
 }
