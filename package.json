@@ -1,6 +1,6 @@
 {
   "name": "graphqlld-on-file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Execute a GraphQL-LD query on an RDF file.",
   "main": "index.js",
   "scripts": {
